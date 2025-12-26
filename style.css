@@ -3,10 +3,11 @@
   font-size: 20 px;
 }
 
-h1 {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  animation-name: myAnimation;
-  animation-duration: 4s;
+Button {
+  background: blue;
+  color: white;
+  transition: 0.3s;
+}
+#ColorChanger:hover {
+  background:darkblue;
 }
